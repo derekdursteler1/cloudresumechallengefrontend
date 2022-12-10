@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Cloud Resume Challenge</title>
+    
+</head>
+<body>
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Dursteler</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon' ></i>Profile
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon'></i>Education
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon'></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon'></i>Certificates
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon'></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+        </nav>
+    </header>
+    <main class="l-main bd-container">
+        <!-- PDF START -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!-- Home -->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="img/sunflower.jpg" alt="derek" class="home__img">
+                            <div class="counter-title">Visits: 
+                            <div id="website-counter"> </div></div>
+                            <h1 class="home__title">DURSTELER <b>DEREK</b></h1>
+                            <h3 class="home__profession">Web Developer</h3>
+                            <!-- Button to download resume-->
+                            <div>
+                                <a download="" href="pdf/ResumeMaster.docx.pdf" class="home__button-movil">Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon' ></i> Boise, ID 83713
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon' ></i> derekdursteler@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon' ></i> 435-668-9353
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Dark light mode moon button-->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+                    <!-- Button to generate and download pdf-->
+                    <i class='bx bxs-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                </section>
+                <!-- End Home -->
+
+
+                <!-- Social-->
+                <section class="social">
+                    <h2 class="section-title">SOCIAL</h2>
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i>@derekdursteler
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-facebook social__icon'></i>@derekdursteler
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram social__icon'></i>@derekdursteler
+                        </a>
+                    </div>
+                </section>
+                <!-- End Social -->
+
+                <!-- Profile -->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+                    <p class="profile__description">I am a dad of 2 who is studying web development and cloud concepts to pursue a better career.</p>
+                </section>
+                <!-- End Profile -->
+                <!-- Education -->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Full Stack Development</h3>
+                                <span class="education__studies">Utah Tech University (Code School)</span>
+                                <span class="education__year">May 2018 - August 2018</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Associates of Science</h3>
+                                <span class="education__studies">Utah Tech University</span>
+                                <span class="education__year">2011-2013</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>    
+
+                        <div class="education__data bd-grid">
+                            <h3 class="education__title">High School Diploma</h3>
+                            <span class="education__studies">Desert Hills High School</span>
+                            <span class="education__year">August 2009 - May 2011</span>
+                        </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End Education -->
+
+                <!-- Skills -->
+                <sections class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>HTML
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>CSS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>JavaScript
+                            </li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Python
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Git
+                            </li>
+                        </ul>
+                    </div>
+
+                </sections>
+                <!-- End Skills-->
+            </div>
+
+            <div class="resume__right">
+                <!-- Experience -->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">The Griddle Restaurant</h3>
+                                <span class="experience__company">April 2022 to Present | Trainer</span>
+                                <p class="experience__description">Quickly onboarded new hires for their role in 3 days. Gave them sufficient training, resources, and tools needed to complete the job.</p>
+                            </div>    
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">HFB Technologies</h3>
+                                <span class="experience__company">From 2020 to 2021 | Team Lead Developer</span>
+                                <p class="experience__description">Oversaw a group of developers by organizing and delegating tasks to complete the websites on schedule. Communicated Face-to-Face with clients to show them the progress on the website throughout the build process.</p>
+                            </div>    
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Mountain Loan Centers</h3>
+                                <span class="experience__company">From 2015 to 2020 | Legal Data Analyst</span>
+                                <p class="experience__description">Analyzed all accounts in the pre-legal and legal departments for fraud, errors, and inconsistencies. Prepared all legal documents for the company attorney with 100% data entry accuracy.</p>
+                            </div>    
+                        </div>
+                    </div>
+                </section>
+                <!-- End Experience-->
+
+                <!-- Certificates -->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificates</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">AWS Certified Cloud Practitioner</h3>
+                            <p class="certificate__description">The AWS Certified Cloud Practitioner offers a foundational understanding of AWS Cloud concepts, services, and terminology.</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Certificates -->
+                <!-- References -->
+                    <section class="references section" id="references">
+                        <h2 class="section-title">References</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Mid-Market Account Executive</span>
+                                <h3 class="references__title">Nate Becker</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: ***-***-****</li>
+                                    <li>Email: ***@test.com</li>
+                                </ul>
+                            </div>
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Presales Engineer</span>
+                                <h3 class="references__title">Auston Ivison</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: ***-***-****</li>
+                                    <li>Email: ***@test.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                <!-- End References -->
+
+                <!-- Languages-->
+                <section class="languages section">
+                    <h2 class="section-title">Languages</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Broken Spanish
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- End Languages-->
+
+                <!-- Interests -->
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-headphone interests__icon'></i>
+                            <span class="interests__name">PC Gaming</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxs-plane interests__icon' ></i>
+                            <span class="interests__name">Traveling</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxs-cookie interests__icon'></i>
+                            <span class="interests__name">Cooking</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-laptop interests__icon' ></i>
+                            <span class="interests__name">Programming</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-accessibility interests__icon'></i>
+                            <span class="interests__name">Skateboarding</span>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Interests -->
+            </div>
+        </div>
+    </main>
+        <!-- Scroll Up -->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bxs-up-arrow-alt scrolltop__icon' ></i>
+        </a>
+        <script src="js/html2pdf.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
