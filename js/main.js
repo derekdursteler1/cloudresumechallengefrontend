@@ -118,7 +118,7 @@ resumeButton.addEventListener('click', () => {
 /* Visitor count */
 
 // let websiteCounter = document.getElementById('website-counter');
-fetch('https://5he6i1iju5.execute-api.us-east-1.amazonaws.com/Prod/hello')
+fetch('https://uo52i7sydk.execute-api.us-east-1.amazonaws.com/Prod/hello')
 .then((response => response.json()))  
 .then((data) => {document.getElementById("website-counter").innerHTML = data});
 
