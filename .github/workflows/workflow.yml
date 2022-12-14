@@ -18,11 +18,9 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: ${{ secrets.AWS_REGION }}   # optional: defaults to us-east-1
         SOURCE_DIR: './'      # optional: defaults to entire repository
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
+
       ##### Invalidate CloudFront (this action)
-        uses: chetan/invalidate-cloudfront-action@v2
+    - uses: chetan/invalidate-cloudfront-action@v2
         env:
           DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
           PATHS: "/index.html"
